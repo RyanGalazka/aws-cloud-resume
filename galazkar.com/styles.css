@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+    color: #dcdcdc; /* Default text color */
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #dcdcdc;
+    text-align: center;
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #dcdcdc; /* Heading text color */
+}
+
+.contact, .education, .experience, .skills, .aws-certifications {
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #dcdcdc; /* Text color for sections */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #1a1a1a;
+    color: #dcdcdc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #8ec63f; /* Link text color */
+    display: flex;
+    align-items: center;
+}
+
+.contact-links i {
+    margin-right: 5px;
+}
+
+.skills, .certifications-box {
+    margin-top: 20px;
+}
+
+.counter-number {
+    text-align: center;
+    font-size: 14px;
+}
+
+body, p, li, a {
+    color: #dcdcdc; /* Text color for body, paragraphs, list items, and links */
+}
+
+.certifications-box a {
+    color: #8ec63f; /* Text color for certification links */
+}
+
+.experience ul,
+.skills ul,
+.aws-certifications ul {
+    margin-bottom: 10px; /* Add some bottom margin to the lists */
+    padding-left: 20px; /* Add left padding to the lists */
+}
