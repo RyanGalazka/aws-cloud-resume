@@ -1,83 +1,106 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2b2b2b;
-    color: #dcdcdc; /* Default text color */
-}
-
-header {
-    background-color: #1a1a1a;
-    color: #dcdcdc;
-    text-align: center;
-    padding: 1em;
+    background-color: #f5f5f5;
+    color: #242424; /* Darker text color */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #dcdcdc; /* Heading text color */
+    color: #1c1c1c;
 }
 
-.contact, .education, .experience, .skills, .aws-certifications {
-    margin: 20px;
-    padding: 20px;
-    background-color: #333;
+header h1 {
+    color: #f5f5f5; /* Lighter header text color */
+    margin: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header p {
+    color: #d0d0d0; /* Slightly lighter subheader text color */
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #dcdcdc; /* Text color for sections */
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #1a1a1a;
-    color: #dcdcdc;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contact-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1rem;
 }
 
 .contact-links a {
+    color: #242424; /* Darker link color */
     text-decoration: none;
-    color: #8ec63f; /* Link text color */
     display: flex;
     align-items: center;
 }
 
+.contact-links a:hover {
+    color: #4d4d4d;
+}
+
 .contact-links i {
-    margin-right: 5px;
+    margin-right: 0.5rem;
 }
 
-.skills, .certifications-box {
-    margin-top: 20px;
+.projects h3 a {
+    color: #242424; /* Darker link color */
+    text-decoration: none;
 }
 
-.counter-number {
-    text-align: center;
-    font-size: 14px;
+.projects h3 a:hover {
+    color: #4d4d4d;
 }
 
-body, p, li, a {
-    color: #dcdcdc; /* Text color for body, paragraphs, list items, and links */
+.projects p {
+    margin-top: 0.5rem;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skills li {
+    background-color: #e6e6e6;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
 }
 
 .certifications-box a {
-    color: #8ec63f; /* Text color for certification links */
+    color: #242424; /* Darker link color */
+    text-decoration: none;
 }
 
-.experience ul,
-.skills ul,
-.aws-certifications ul {
-    margin-bottom: 10px; /* Add some bottom margin to the lists */
-    padding-left: 20px; /* Add left padding to the lists */
+.certifications-box a:hover {
+    color: #4d4d4d;
+}
+
+.counter-number {
+    color: #bdbdbd; /* Lighter counter text color */
+    font-size: 14px;
+    margin-top: 0.5rem;
+    text-align: center;
 }
