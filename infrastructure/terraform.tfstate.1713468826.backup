@@ -1,0 +1,71 @@
+{
+  "version": 4,
+  "terraform_version": "1.3.8",
+  "serial": 1562,
+  "lineage": "324edb02-0782-74b9-1215-db9a35c44b6e",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_lambda_function",
+      "name": "view_counter_lambda",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "architectures": [
+              "x86_64"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:834302282875:function:view-counter-lambda",
+            "code_signing_config_arn": "",
+            "dead_letter_config": [],
+            "description": "",
+            "environment": [],
+            "file_system_config": [],
+            "filename": null,
+            "function_name": "arn:aws:lambda:us-east-1:834302282875:function:view-counter-lambda",
+            "handler": "lambda_function.lambda_handler",
+            "id": "arn:aws:lambda:us-east-1:834302282875:function:view-counter-lambda",
+            "image_config": [],
+            "image_uri": "",
+            "invoke_arn": "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:834302282875:function:view-counter-lambda/invocations",
+            "kms_key_arn": "",
+            "last_modified": "2024-04-17T20:05:08.000+0000",
+            "layers": [],
+            "memory_size": 128,
+            "package_type": "Zip",
+            "publish": null,
+            "qualified_arn": "arn:aws:lambda:us-east-1:834302282875:function:view-counter-lambda:$LATEST",
+            "reserved_concurrent_executions": -1,
+            "role": "arn:aws:iam::834302282875:role/service-role/view-counter-lambda-role-rh38kpqp",
+            "runtime": "python3.8",
+            "s3_bucket": null,
+            "s3_key": null,
+            "s3_object_version": null,
+            "signing_job_arn": "",
+            "signing_profile_version_arn": "",
+            "source_code_hash": "SQnMv8eJxeKTBrNEuaBcfGJ42kbVTP8/A+GPHW+G4GI=",
+            "source_code_size": 345,
+            "tags": {},
+            "tags_all": {},
+            "timeout": 3,
+            "timeouts": {
+              "create": null
+            },
+            "tracing_config": [
+              {
+                "mode": "PassThrough"
+              }
+            ],
+            "version": "$LATEST",
+            "vpc_config": []
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjAifQ=="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

@@ -99,8 +99,9 @@ section {
 }
 
 .counter-number {
-    color: #bdbdbd; /* Lighter counter text color */
+    color: #ffffff; /* White text color */
     font-size: 14px;
     margin-top: 0.5rem;
     text-align: center;
-}
+    display: inline; /* or display: inline; */
+  }
