@@ -1,5 +1,7 @@
 # Local .terraform directories
 **/.terraform/*
+.terraform/providers/registry.terraform.io/hashicorp/aws/3.76.1/windows_386/terraform-provider-aws_v3.76.1_x5.exe
+.terraform/providers/registry.terraform.io/hashicorp/aws/5.45.0/windows_386/terraform-provider-aws_v5.45.0_x5.exe
 
 # .tfstate files
 *.tfstate
