@@ -22,7 +22,7 @@ jobs:
     
     - name: Deploy to S3
       run: |
-        aws s3 sync ./test.galazkar.com s3://${{ secrets.TEST_AWS_S3_BUCKET }} --delete
+        aws s3 sync ./galazkar.com s3://${{ secrets.TEST_AWS_S3_BUCKET }} --delete
     
     - name: Invalidate CloudFront Cache
       run: |
